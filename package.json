@@ -2,7 +2,7 @@
   "name": "nyenyec",
   "version": "1.0.0",
   "description": "Simple webpack project containing all related work for the Tundra Nenets linguistic research webpage",
-  "main": "src/index.html",
+  "main": "index.html",
   "dependencies": {},
   "devDependencies": {
     "webpack": "^4.41.2",
