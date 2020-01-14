@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.pure-menu-link {
+  color: #333;
+}
+
+body {
+  background: linear-gradient(#efefef 0%, #0476e4 90%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 100%;
+  font-family: "Open Sans", "Source Sans Pro", sans-serif;
+}
+body header {
+  position: -webkit-sticky;
+  position: sticky;
+  background: linear-gradient(45deg, #0066c7 0%, transparent 100%);
+  color: #efefef;
+  top: 0;
+}
+body header nav {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+body header nav ul {
+  margin: 0 auto;
+  padding: 1em;
+}
+body header nav ul li {
+  list-style: none;
+  cursor: pointer;
+}
+body header nav ul li ul {
+  border: 1px solid #efefef;
+}
+body header nav ul li ul li {
+  padding: 0.5em;
+  border-bottom: 0.5px solid rgba(101, 160, 216, 0.36);
+  color: #efefef;
+}
+body main {
+  padding-bottom: 2em;
+}
+body main section {
+  display: block;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  border: 1px solid lightgray;
+  padding: 1em;
+  color: #333;
+  font-size: 18px;
+  background: #efefef;
+}
+body main section .hero {
+  min-height: 100vh;
+}
+body main section h1 {
+  background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+}
+body main section .participant {
+  display: block;
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+}
+body footer {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  background: #333;
+  height: 150px;
+  border-top: 12px solid red;
+}
+body footer:before {
+  content: "";
+  background-image: url("../img/nenets_tile.png");
+  height: 41px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: -53px;
+}
+body footer .content {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */

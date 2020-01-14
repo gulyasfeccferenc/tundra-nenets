@@ -1,0 +1,17 @@
+{
+  "name": "nyenyec",
+  "version": "1.0.0",
+  "description": "Simple webpack project containing all related work for the Tundra Nenets linguistic research webpage",
+  "main": "src/index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gulyasfeccferenc",
+  "license": "MIT"
+}
