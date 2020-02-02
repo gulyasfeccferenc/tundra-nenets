@@ -13,7 +13,6 @@
   }
 }
 body {
-  //background: linear-gradient(#efefef 0%, #0476e4 90%);
   background: #ffffff;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,7 +23,6 @@ body {
   header {
     position: -webkit-sticky;
     position: sticky;
-    //background: linear-gradient(45deg, #0066c7 0%, transparent 100%);;
     background: #f1f1f1;
     color: #efefef;
     top: 0;
@@ -62,9 +60,6 @@ body {
     padding-bottom: 2em;
 
     section {
-      //background: url("../img/yu-fu.jpg");
-      //background-position: center center;
-      //background-size: cover;
       display: block;
       width: 100%;
       border: 1px solid transparent;
@@ -79,6 +74,10 @@ body {
 
       &:nth-of-type(even) {
         background: #ece9e7;
+      }
+
+      &:empty {
+        padding: 0;
       }
 
       .content {

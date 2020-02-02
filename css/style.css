@@ -66,6 +66,9 @@ body main section:nth-of-type(odd) {
 body main section:nth-of-type(even) {
   background: #ece9e7;
 }
+body main section:empty {
+  padding: 0;
+}
 body main section .content {
   max-width: 1024px;
   width: 100%;
