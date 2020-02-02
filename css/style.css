@@ -1,30 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400&display=swap&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700&display=swap&subset=latin-ext");
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
+.pure-menu {
+  text-align: center;
+}
 .pure-menu-link {
   color: #333;
 }
 
 body {
-  background: linear-gradient(#efefef 0%, #0476e4 90%);
+  background: #ffffff;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
   height: 100%;
-  font-family: "Open Sans", "Source Sans Pro", sans-serif;
+  font-family: "Noto Serif", "Open Sans", "Source Sans Pro", sans-serif;
 }
 body header {
   position: -webkit-sticky;
   position: sticky;
-  background: linear-gradient(45deg, #0066c7 0%, transparent 100%);
+  background: #f1f1f1;
   color: #efefef;
   top: 0;
 }
 body header nav {
   max-width: 1024px;
   margin: 0 auto;
+  font-family: "Nunito", sans-serif;
 }
 body header nav ul {
   margin: 0 auto;
@@ -48,22 +54,31 @@ body main {
 body main section {
   display: block;
   width: 100%;
-  max-width: 1024px;
-  margin: 0 auto;
-  border: 1px solid lightgray;
+  border: 1px solid transparent;
   padding: 1em;
-  color: #333;
+  color: #4f2d12;
   font-size: 18px;
   background: #efefef;
+}
+body main section:nth-of-type(odd) {
+  background: #f3f0ed;
+}
+body main section:nth-of-type(even) {
+  background: #ece9e7;
+}
+body main section .content {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
 }
 body main section .hero {
   min-height: 100vh;
 }
-body main section h1 {
-  background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+body main section h1, body main section h2, body main section h3 {
   text-shadow: none;
+  font-family: "Nunito", sans-serif;
+  font-variant-caps: all-petite-caps;
+  font-weight: 400;
 }
 body main section .participant {
   display: block;
@@ -81,12 +96,13 @@ body footer {
 }
 body footer:before {
   content: "";
-  background-image: url("../img/nenets_tile.png");
-  height: 41px;
+  background-image: url("../img/nenets_tile3.png");
+  background-size: contain;
+  height: 40px;
   width: 100%;
   display: block;
   position: absolute;
-  top: -53px;
+  top: -52px;
 }
 body footer .content {
   max-width: 1024px;
