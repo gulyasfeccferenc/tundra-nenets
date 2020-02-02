@@ -91,9 +91,6 @@ body {
       }
 
       h1, h2, h3 {
-        //background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
-        //-webkit-background-clip: text;
-        //-webkit-text-fill-color: transparent;
         text-shadow: none;
         font-family: "Nunito", sans-serif;
         font-variant-caps: all-petite-caps;
@@ -113,10 +110,9 @@ body {
     width: 100%;
     bottom: 0;
     color: white;
-    //background: #0476e4;
     background: #333;
     height: 150px;
-    border-top: 12px solid red;
+    border-top: 12px solid #333;
 
     &:before {
       content: '';

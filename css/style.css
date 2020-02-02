@@ -95,7 +95,7 @@ body footer {
   color: white;
   background: #333;
   height: 150px;
-  border-top: 12px solid red;
+  border-top: 12px solid #333;
 }
 body footer:before {
   content: "";
