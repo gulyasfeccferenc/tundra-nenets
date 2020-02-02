@@ -70,10 +70,16 @@ body {
 
       &:nth-of-type(odd) {
         background: #f3f0ed;
+        ::selection {
+          background: #ece9e7;
+        }
       }
 
       &:nth-of-type(even) {
         background: #ece9e7;
+        ::selection {
+          background: #fff;
+        }
       }
 
       &:empty {

@@ -63,8 +63,14 @@ body main section {
 body main section:nth-of-type(odd) {
   background: #f3f0ed;
 }
+body main section:nth-of-type(odd) ::selection {
+  background: #ece9e7;
+}
 body main section:nth-of-type(even) {
   background: #ece9e7;
+}
+body main section:nth-of-type(even) ::selection {
+  background: #fff;
 }
 body main section:empty {
   padding: 0;
